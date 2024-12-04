@@ -1,0 +1,43 @@
+--This is going to be when it first release--
+
+
+SiteSpender/
+│
+├── assets/                  # Folder for all images, icons, and other assets
+│   ├── icons/               # Icon images for different sizes
+│   │   ├── icon16.png       # 16x16 icon
+│   │   ├── icon48.png       # 48x48 icon
+│   │   └── icon128.png      # 128x128 icon
+│   └── images/              # Other image assets (e.g., logo, background images)
+│
+├── background/              # Background script and logic
+│   └── background.js        # Manages time tracking and other background tasks
+│
+├── content/                 # Content scripts that interact with the web pages
+│   └── content.js           # Tracks time spent on websites
+│
+├── popup/                   # Popup UI (when user clicks the extension icon)
+│   ├── popup.html           # HTML structure for the popup
+│   ├── popup.js             # JavaScript logic for the popup
+│   └── popup.css            # Styles specific to the popup
+│
+├── options/                 # Settings and preferences page
+│   ├── options.html         # HTML structure for settings page
+│   ├── options.js           # JavaScript logic for settings (e.g., saving preferences)
+│   └── options.css          # Styles for the settings page
+│
+├── styles/                  # Global styles for the extension
+│   └── main.css             # Main styles for the extension
+│
+├── utils/                   # Utility functions and helper modules
+│   ├── timeTracker.js       # Logic for tracking and calculating time
+│   └── storage.js           # Handles saving and retrieving data from storage
+│
+│
+├── docs/*                   # Docs for explain the file structure & project in a summery.
+│
+│
+├── manifest.json            # Configuration file for the Chrome extension
+├── README.md                # Project documentation
+├──.gitignore
+└── LICENSE                  # License file for the project

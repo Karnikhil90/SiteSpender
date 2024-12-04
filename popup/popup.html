@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SiteSpender</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <h1>SiteSpender</h1>
+  <p>Track your time spent on websites!</p>
+
+  <!-- Dropdown to choose the date -->
+  <label for="date-select">Choose a date:</label>
+  <select id="date-select">
+    <option value="today">Today</option>
+  </select>
+
+  <ul id="website-list"></ul>
+
+  <p id="no-websites-message" style="display: none;">List is empty</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+    
